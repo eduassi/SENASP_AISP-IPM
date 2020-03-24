@@ -1,32 +1,31 @@
 ﻿{
-  "information": {
-    "modulo-numero": "Cardápio",
-    "modulo-resumido": "M0",
-    "modulo-nome": "CARDÁPIO DE RECURSOS"
-  },
-  "configuration": {
-    "target": "#menu_item_list",
-    "start-level": 0,
-    "max-level": 5,
-    "min-level": 0,
-    "prefix-name": "pages/capitulo_"
-  },
-  "pages": [
-    {
-      "placeholder": "Dicas",
-      "url": "pages/capitulo_0.html"
+    "information": {
+        "modulo-numero": "MÓDULO 1",
+        "modulo-resumido": "M1",
+        "modulo-nome": "NOME DO MÓDULO"
     },
-    {
-      "placeholder": "Caixas de destaque",
-      "url": "pages/capitulo_1.html"
+    "configuration": {
+        "target": "#menu_item_list",
+        "start-level": 0,
+        "max-level": 3,
+        "min-level": 0,
+        "prefix-name": "pages/capitulo_"
     },
-    {
-      "placeholder": "Recursos interativos",
-      "url": "pages/capitulo_2.html"
-    },
-    {
-      "placeholder": "Animações",
-      "url": "pages/capitulo_3.html"
-    }
-  ]
+    "pages": [{
+            "placeholder": "Apresentação",
+            "url": "pages/capitulo_0.html"
+        },
+        {
+            "placeholder": "Aula 1",
+            "url": "pages/capitulo_1.html"
+        },
+        {
+            "placeholder": "Realize a atividade",
+            "url": "pages/capitulo_2.html"
+        },
+        {
+            "placeholder": "Referências",
+            "url": "pages/capitulo_3.html"
+        }
+    ]
 }
