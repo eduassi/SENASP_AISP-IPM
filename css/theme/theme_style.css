@@ -6,13 +6,12 @@
 @import url("sidebar.css");
 
 /* NOVO */
-body {
-    overflow-x: hidden;
-  }
-  
 
 body {
-    
+    overflow-x: hidden;
+}
+
+body {
     margin-top: 150px;
     font-size: 19px;
 }
@@ -69,6 +68,10 @@ a.box-dest:hover {
 
 a.btn-atividade img:hover {
     content: url('../../assets/images/identity/atividades-btn-hover.png');
+}
+
+a.btn-volteaocurso img:hover {
+    content: url('../../assets/images/identity/volte_ao_curso_bt.png');
 }
 
 #sidebar-wrapper {
