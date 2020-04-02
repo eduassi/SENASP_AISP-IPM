@@ -6,13 +6,12 @@
 @import url("sidebar.css");
 
 /* NOVO */
-body {
-    overflow-x: hidden;
-  }
-  
 
 body {
-    
+    overflow-x: hidden;
+}
+
+body {
     margin-top: 150px;
     font-size: 19px;
 }
@@ -67,9 +66,11 @@ a.box-dest:hover {
     background: #6b8e23;
 }
 
+
+/* 
 a.btn-atividade img:hover {
     content: url('../../assets/images/identity/atividades-btn-hover.png');
-}
+} */
 
 #sidebar-wrapper {
     position: fixed;
@@ -489,4 +490,41 @@ label:focus,
     100% {
         background-position: 30px 0;
     }
+}
+
+
+/* NOVO AJUSTE BOTAO */
+
+.btn-volteaocurso {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-atividade {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
